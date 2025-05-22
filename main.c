@@ -11,7 +11,7 @@ void putb(byte b) {
 	putchar(table[(b & 0x0F)]);
 }
 
-int main(int argc, char **argv) {
+int main() {
 	size_t bytes_read;
 	uint32_t row;
 	byte *rowb;

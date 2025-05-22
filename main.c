@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <fcntl.h>
-typedef uint8_t byte;
+typedef unsigned char byte;
 static char table[16] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
 static char *is_even[2] = {"", " "};
 static byte buf[32];
